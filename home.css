@@ -304,7 +304,7 @@ hr {
 	height: 140px;
 	width: 100%;
 	margin-bottom: 10px;
-	padding: 15px 34px;
+	padding: 15px 43px;
 	/* border:2px solid blue; */
 }
 
@@ -341,15 +341,15 @@ hr {
 }
 
 .owlComponent3 {
-	height: 170px;
+	height: 180px;
 	width: 100%;
 	margin-bottom: 10px;
-	padding: 15px 34px;
+	padding: 10px 54px;
 	/* border:2px solid blue; */
 }
 
 .owlComponent3 > img {
-	height: 140px;
+	height: 150px;
 }
 
 .owlComponent3 > img:hover {
@@ -364,6 +364,18 @@ hr {
 
 .owlComponent4 > span {
 	display: block;
+}
+
+.owlComponent5 {
+	height: 153px;
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px 56px;
+	/* border:2px solid blue; */
+}
+
+.owlComponent5 > img {
+	height: 132px;
 }
 
 
