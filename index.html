@@ -25,80 +25,69 @@
 
 	<body>
 
-		<nav class="navbar navbar-expand-sm bg-primary">
-			<div class="container-fluid box">
-				<!-- nav-brand -->
-				<div class="navbar-brand brand">
-					<div class="flipkt">
-						<a href="/">
-							<img width="75" src="https://i.ibb.co/YpZNQmD/flipkart-plus.png" alt="Flipkart" title="Flipkart">
-						</a>
-					</div>
-					<div class="plus">
-						<a href="/plus" class="plus-link">
-							Explore
-							<span style="color: #feea0d;"><strong>Plus</strong></span>
-							<img width="10" src="https://i.ibb.co/S08sqBd/plus.png" alt="plus">
-						</a>
-					</div>
-				</div>
-
-				<!-- nav-search -->
-				<div class="form">
-					<form class="d-flex">
-						<input class="form-control me-2" type="text" placeholder="Search for products, brands and more" id="search">
-						<button class="search-btn" type="button"><span><i class="fa fa-search"></i></span></button>
-					</form>
-				</div>
-
-				<!-- navbar-toggler -->
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#devNavbar">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse devToggler" id="devNavbar">
-					<ul class="navbar-nav devUl">
-						<li class="nav-item">
-							<div class="devList1">
-								<a class="nav-link" href="/">
-									<strong>Login</strong>
-								</a>
-							</div>
-						</li>
-						<li class="nav-item">
-							<div class="devList">
-								<a class="nav-link seller" href="/">
-									<strong>Become a seller</strong>
-								</a>
-							</div>
-						</li>
-						<li class="nav-item dropdown">
-							<div class="devList">
-								<a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown">
-									<strong style="color: #fff;">More</strong>
-								</a>
-								<ul class="dropdown-menu">
-									<li><a class="dropdown-item" href="/">Notification Preferences</a></li>
-									<li><a class="dropdown-item" href="/">24x7 Customer Care</a></li>
-									<li><a class="dropdown-item" href="/">Advertise</a></li>
-									<li><a class="dropdown-item" href="/">Download App</a></li>
-								</ul>
-							</div>
-						</li>
-					</ul>
-				</div>
-
-				<div class="devCart devList">
-					<a class="nav-link seller" href="/">
-						<span><i class="fa-solid fa-cart-shopping cart"></i></span>
-						<strong>  Cart</strong>
+		<header>
+			<!-- brand -->
+			<div id="brand">
+				<div>
+					<a href="/">
+						<img width="75" src="https://i.ibb.co/YpZNQmD/flipkart-plus.png"  alt="Flipkart" title="Flipkart">
 					</a>
 				</div>
-
+				<div>
+					<a href="/" class="plus">
+						Explore
+						<span style="color: #feea0d;">
+							<strong>Plus</strong>
+						</span>
+						<img width="10" src="https://i.ibb.co/S08sqBd/plus.png" alt="plus">
+					</a>
+				</div>
 			</div>
-		</nav>
 
-		<!-- header -->
-		<div class="header">
+			<!-- searchbar -->
+			<div id="searchBar">
+				<form action="/" method="post">
+					<input type="text" name="search" placeholder="Search for products, brands and more" value="" id="search"/>
+					<button type="submit" class="search-btn"><i class="fa fa-search"></i></button>
+				</form>
+			</div>
+
+			<!-- login -->
+			<div id="login">
+				<a class="nav-link title" href="/">Login</a>
+			</div>
+
+			<!-- seller -->
+			<div id="seller">
+				<a class="nav-link title" href="/">Become a Seller</a>
+			</div>
+
+			<!-- more -->
+			<div id="more">
+					<div class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown">
+							<strong style="color: #fff;">More</strong>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="/">Notification Preferences</a></li>
+							<li><a class="dropdown-item" href="/">24x7 Customer Care</a></li>
+							<li><a class="dropdown-item" href="/">Advertise</a></li>
+							<li><a class="dropdown-item" href="/">Download App</a></li>
+						</ul>
+					</div>
+			</div>
+
+			<!-- cart -->
+			<div id="cart">
+				<a class="nav-link" href="/">
+					<span><i class="fa-solid fa-cart-shopping"></i></span>
+					<strong>  Cart</strong>
+				</a>
+			</div>
+		</header>
+
+		<!-- Categories -->
+		<div class="categories">
 			<div class="flex-container">
 				<!-- tile1 -->
 				<div class="tile">
@@ -1324,7 +1313,7 @@
 					<a href="/">Twitter</a>
 					<a href="/">YouTube</a>
 				</div>
-				<div class="footDiv2">
+				<div class="footDiv2 mail">
 					<div class="footHeading">Mail Us:</div>
 					<span>Flipkart Internet Private Limited,</span>
 					<span>Buildings Alyssa, Begonia &</span>
@@ -1333,7 +1322,7 @@
 					<span>Bengaluru, 560103,</span>
 					<span>Karnataka, India</span>
 				</div>
-				<div class="footDiv2">
+				<div class="footDiv2 address">
 					<div class="footHeading">Registered Office Address:</div>
 					<span>Flipkart Internet Private Limited,</span>
 					<span>Buildings Alyssa, Begonia &</span>
