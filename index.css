@@ -6,7 +6,7 @@
 	margin-left:35%;
 	visibility: hidden;
 	position: absolute;
-	margin-top: 200px;
+	margin-top: 20%;
 	position: fixed;
 	box-shadow: 10px 15px 30px gray;
 	border: 2px solid #dce14d;
@@ -553,6 +553,8 @@ footer {
 		height: 230px;
 		width: 390px;
 		margin-left:26%;
+		position: absolute;
+		margin-top: 40%;
 	}
 
 	#coupon > img {
