@@ -1,3 +1,36 @@
+#coupon{
+	height: 280px;
+	width: 480px;
+	background-color: gray;
+	z-index:120;
+	margin-left:35%;
+	visibility: hidden;
+	position: absolute;
+	margin-top: 200px;
+	position: fixed;
+	box-shadow: 10px 15px 30px gray;
+	border: 2px solid #dce14d;
+}
+
+#coupon > img {
+	height: 280px;
+	width: 480px;
+}
+
+.btn-coupon{
+	height: 20px;
+	width: 20px;
+	font-size: 10px;
+	font-weight: 800;
+	border: 1px solid gray;
+}
+
+#coupon > .btn-coupon{
+	position: absolute;
+	right: 0;
+	top: 5px;
+}
+
 body {
 	margin: auto;
 	color: #212121;
@@ -10,130 +43,129 @@ body {
 	justify-content: center;
 }
 
-.dropdown:hover .dropdown-menu {
-	display: block;
+/****** navbar ******/
+.navbar-nav {
+	margin-left: auto;
 }
 
-.dropdown-menu {
-	font-size: 14px;
+.navbar {
+	font-family: Arial,sans-serif;
+	font-size: 16px;
 }
 
-.dropdown-item:hover {
-	color: #2874f0;
-}
-
-/* header css */
-
-header {
-	height: 56px;
-	width: 100%;
-	padding: 9px 0 5px;
-	display: inline-block;
-	background-color: #2874f0;
-	/* border: 2px solid red; */
-}
-
-/* header/brand */
-#brand {
-	float: left;
-	width: 86px;
-	margin-left: 14%;
-	display: flex;
-	flex-direction: column;
-	line-height: 1.1;
-	text-align: center;
-	/* border: 2px solid red; */
-}
-
+/* Anchor tag */
 .plus {
-	color: white;
-	font-style: italic;
-	font-size: 11px;
 	text-decoration: none;
+	color: white;
 }
 
 .plus:hover {
 	color: white;
+}
+
+
+/* brand */
+.brand {
+	height: 42px;
+	width: 78px;
+	margin-left: 140px;
+}
+
+.brandTopImage{
+	position: absolute;
+	top: 4px;
+}
+
+.brandBottomLink{
+	font-style: italic;
+	font-size: 12px;
+	position: absolute;
+	top: 35px;
+}
+
+.brandBottomLink:hover {
 	text-decoration: underline;
 }
 
-/* header/searchBar */
+/* search bar */
+.searchBar {
+	position: absolute;
+	top: 12px;
+	width: 31%;
+	max-width: 360px;
+	margin-left: 240px;
+	margin-right: 15px;
+	align-items: center;
+}
+
 #search {
-	float: left;
-	width: 26%;
-	height: 38px;
-	padding: 10px;
-	margin-left: 18px;
+	height: 36px;
+	width: 100%;
+	font-size: 14px;
+	margin-right: 0;
 	border: none;
-	border-top-left-radius: 2px;
-	border-bottom-left-radius: 2px;
+	border-radius: 2px 0 0 2px;	
 }
 
 .search-btn {
-	float: left;
-	width: 3%;
-	height: 38px;
+	justify-content: flex-end;
+	height: 36px;
+	width: 44px;
 	font-size: 20px;
 	color: #2874f0;
-	background: #fff;
-	border: none;
-	cursor: pointer;
-	border-top-right-radius: 2px;
-	border-bottom-right-radius: 2px;
+	padding: 4px 12px 0 8px;
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 0 2px 2px 0;
 }
 
-/* header/login */
-#login {
-	float: left;
-	width: 116px;
-	height: 32px;
-	padding: 7px;
-	font-size: 15px;
-	margin-top: 2px;
-	margin-left: 2%;
-	color: #2874f0;
-	background-color: white;
-	text-align: center;
+/* nabvar collapse */
+.btn-toggler{
+	height: 40px;
+	width: 55px;
+	font-weight: 800;
+	border: 1px solid white;
+}
+
+ul{
+	margin-right: 45px;
+}
+
+li{
+	margin-right: 30px;
+}
+
+.btn-nav{ 
+	height: 36px;
+	width: 130px;
+	margin-top: 3px;
+	font-size: 14px;
+	padding: 4px 12px 0 8px;
+	background-color: #fff;
+	border: 1px solid #fff;
 	border-radius: 2px;
 }
 
-/* header/text */
-#seller {
-	float: left;
-	width: 156px;
-	height: 34px;
-	padding: 7px;
-	font-size: 16px;
-	margin-left: 2%;
-	color: #fff;
+.btn-nav > a {
+	padding: 0;
+	color: #2874f0;
+	text-decoration: none;
 }
 
-/* header/more */
-#more {
-	float: left;
-	width: 82px;
-	height: 34px;
-	padding: 7px;
-	font-size: 16px;
-	margin-left: 1%;
-	color: #fff;
+.nav-link {
+	font-weight: 600;
 }
 
-/* header/cart */
-#cart {
-	float: left;
-	width: 84px;
-	height: 34px;
-	padding: 7px;
-	font-size: 16px;
-	margin-left: 1%;
-	color: #fff;
+.nav-link > span {
+	margin-right: 10px;
 }
 
-.fa-cart-shopping {
-	color: #fff;
-	font-size: 17px;
+/* ********************************************************************************************************************** */
+
+#main {
+	margin-top: 65px;
 }
+
 
 /* carousel */
 .carousel-item > img {
@@ -237,6 +269,18 @@ header {
 	background-color: #fff;
 }
 
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+
+.dropdown-menu {
+	font-size: 14px;
+}
+
+.dropdown-item:hover {
+	color: #2874f0;
+}
+
 /* Components */
 #components {
 	margin: 20px 10px;
@@ -255,6 +299,8 @@ header {
 	float: left;
 	width: 85%;
 }
+
+
 
 .title {
 	font-weight: 600;
@@ -284,7 +330,7 @@ hr {
 	width: 96%;
 	margin-left: 2%;
 	margin-top: 10px;
-	height: 40px;
+	height: 48px;
 }
 
 /* Owl Carousel CSS */
@@ -304,7 +350,7 @@ hr {
 	height: 140px;
 	width: 100%;
 	margin-bottom: 10px;
-	padding: 15px 43px;
+	padding: 15px 34px;
 	/* border:2px solid blue; */
 }
 
@@ -341,15 +387,15 @@ hr {
 }
 
 .owlComponent3 {
-	height: 180px;
+	height: 170px;
 	width: 100%;
 	margin-bottom: 10px;
-	padding: 10px 54px;
+	padding: 15px 34px;
 	/* border:2px solid blue; */
 }
 
 .owlComponent3 > img {
-	height: 150px;
+	height: 140px;
 }
 
 .owlComponent3 > img:hover {
@@ -364,18 +410,6 @@ hr {
 
 .owlComponent4 > span {
 	display: block;
-}
-
-.owlComponent5 {
-	height: 153px;
-	width: 100%;
-	margin-bottom: 10px;
-	padding: 10px 56px;
-	/* border:2px solid blue; */
-}
-
-.owlComponent5 > img {
-	height: 132px;
 }
 
 
@@ -415,7 +449,7 @@ footer {
 	margin: 20px 0;
 }
 
-.footDiv {
+.footDiv{
 	width: 13%;
 	height: 240px;
 	float: left;
@@ -450,7 +484,7 @@ footer {
 	border-right: 1px solid #878787;
 }
 
-.footDiv2 {
+.footDiv-2 {
 	width: 22%;
 	height: 240px;
 	float: left;
@@ -460,20 +494,244 @@ footer {
 	/* border: 2px solid blue; */
 }
 
-.footDiv2 > span {
+.footDiv-2 > span {
 	display: block;
 	line-height: 1.8;
 	font-size: 12px;
 }
 
-/* media Query */
-@media screen and (max-width: 1106px) {
-	.address {
+/* Media Query */
+@media screen and (max-width:1254px) {
+	.seller{
 		display: none;
+	}
+
+	li{
+		margin-right: 40px;
 	}
 }
-@media screen and (max-width: 1085px) {
-	#seller {
+
+@media screen and (max-width:1105px) {
+	.footDiv5{
 		display: none;
 	}
+
+	.footDiv{
+		width: 17%;
+	}
+
+	.nowborder {
+		border: none;
+	}
+}
+
+/* button collapse */
+@media screen and (max-width:990px) {
+	.seller{
+		display:block !important;
+	}
+
+	.btn-nav{
+		display: none;
+	}
+
+	.nav-link{
+		margin-left: 60px;
+		margin-top: 5px;
+	}
+
+	.brand {
+		margin-left: 60px;
+	}
+
+	.searchBar{
+		width: 54%;
+		margin-left: 200px;
+	}
+
+	#coupon{
+		height: 230px;
+		width: 390px;
+		margin-left:26%;
+	}
+
+	#coupon > img {
+		height: 230px;
+		width: 390px;
+	}
+
+	.owlTile {
+		height: 285px;
+	}
+
+	.owlComponent3 {
+		height: 200px;
+	}
+
+	.owlComponent3 > img {
+		height: 176px;
+	}
+
+	.owl-carousel .owl-item img {
+		display: block;
+		width: 92%;
+	}
+
+	.owlComponent1 {
+		height: 170px;
+	}
+
+	.owlComponent1 > img {
+		height: 140px;
+	}
+	
+}
+
+@media screen and (max-width:926px) {
+	.tile_10{
+		display: none;
+	}
+
+	.tile{
+		width: 9%;
+	}
+}
+
+@media screen and (max-width:900px) {
+	.footDiv6{
+		display: none;
+	}
+
+	.footDiv{
+		width: 23%;
+	}
+
+	.footer1{
+		padding: 2% 2% 2% 12%;
+	}
+}
+
+@media screen and (max-width:830px) {
+	.footDiv2{
+		display: none;
+	}
+
+	.footDiv{
+		width: 30%;
+	}
+
+	.tile_9{
+		display: none;
+	}
+
+	.tile{
+		width: 12%;
+	}
+
+}
+
+@media screen and (max-width:730px) {
+	.box-1 {
+		width: 75%;
+	}
+
+	.box-2 {
+		width: 25%;
+	}
+}
+
+@media screen and (max-width:675px) {
+	.nav-link{
+		margin-left: 40px;
+	}
+
+	.brand {
+		margin-left: 40px;
+	}
+
+	.searchBar{
+		margin-left: 150px;
+	}
+
+	.tile_6{
+		display: none;
+	}
+
+	.tile{
+		width:20%
+	}
+
+}
+
+@media screen and (max-width:600px) {
+	.nav-link{
+		margin-left: 20px;
+	}
+
+	.brand {
+		margin-left: 20px;
+	}
+
+	.searchBar{
+		width: 57%;
+		margin-left: 120px;
+	}
+
+	#coupon{
+		height: 190px;
+		width: 350px;
+		margin-left:15%;
+	}
+
+	#coupon > img {
+		height: 190px;
+		width: 350px;
+	}
+
+	.tile_5{
+		display: none;
+	}
+
+	.tile{
+		width:25%
+	}
+
+}
+
+/* xs */
+@media screen and (max-width:576px) {
+	.footer1 {
+		padding: 2% 1% 2% 12%;
+	}
+
+	.owlComponent1 {
+		margin-bottom: 16px;
+		padding: 15px 65px;
+	}
+
+	.owlComponent1 > img {
+		height: 160px;
+	}
+
+	.owl-carousel .owl-item img {
+		width: 85%;
+	}
+
+	.owlComponent3 {
+		margin-bottom: 10px;
+		padding: 15px 65px;
+	}
+
+	.owlComponent3 > img {
+		height: 200px;
+	}
+
+	.tile_4{
+		display: none;
+	}
+
+	.tile{
+		width:30%
+	}
+
 }
