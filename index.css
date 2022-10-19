@@ -8,7 +8,7 @@ body {
 	height: 50px;
 	margin: 0;
 	border: 2px solid #2874f0;
-	padding-top: 10px;
+	padding-top: 5px;
 }
 
 /*	******************************************** Coupon CSS ***************************************************	*/
@@ -114,13 +114,7 @@ body {
 	position: relative;
 }
 
-#searchBar-2{
-	width: 100%;
-	position: relative;
-}
-
-
-#search, #search-2 {
+#search {
 	border-radius: 2px 0 0 2px;
 	font-size: 14px;
 	border-right: 0;
@@ -133,6 +127,18 @@ body {
 	padding: 4px 12px 0 8px;
 	background-color: #fff;
 	border-radius: 0 2px 2px 0;
+}
+
+#searchBar-2{
+	width: 100%;
+	position: relative;
+}
+
+#search-2 {
+	border-radius: 2px 0 0 2px;
+	font-size: 14px;
+	border-right: 0;
+	border: none;
 }
 
 /*	******** Navbar Collapse CSS ********	*/
