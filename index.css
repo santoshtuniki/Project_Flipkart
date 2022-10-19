@@ -3,6 +3,14 @@ body {
 	position: relative;
 }
 
+#hiddenBar {
+	display: none;
+	height: 50px;
+	margin: 0;
+	border: 2px solid #2874f0;
+	padding-top: 10px;
+}
+
 /*	******************************************** Coupon CSS ***************************************************	*/
 #coupon{
 	height: 320px;
@@ -98,7 +106,7 @@ body {
 }
 
 /*	******** Search Bar CSS ********	*/
-#searchBar {
+#searchBar{
 	width: 31%;
 	margin-right: 15px;
 	min-width: 304px;
@@ -106,13 +114,19 @@ body {
 	position: relative;
 }
 
-#search {
+#searchBar-2{
+	width: 100%;
+	position: relative;
+}
+
+
+#search, #search-2 {
 	border-radius: 2px 0 0 2px;
 	font-size: 14px;
 	border-right: 0;
 }
 
-#btn-search {
+#btn-search, #btn-search-2 {
 	font-size: 18px;
 	color: #2874f0;
 	border-left: 0;
@@ -649,6 +663,9 @@ footer {
 	}
 	#btn-search {
 		display: none;
+	}
+	#hiddenBar {
+		display: block;
 	}
 	.brand {
 		margin-left: 20%;
