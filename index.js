@@ -30,11 +30,39 @@ function changeMode() {
 
 function loadCoupon(){
 	document.getElementById('coupon').style.visibility = 'visible';
-	document.getElementById('main').style.opacity='0.6'
+	document.getElementById('main').style.opacity='0.6';
 }
 
 function closeCoupon(){
 	document.getElementById('coupon').style.visibility = 'hidden';
-	document.getElementById('main').style.opacity='1'
+	document.getElementById('main').style.opacity='1';
 }
 
+
+function geolocation(){
+	if(navigator.geolocation){
+		navigator.geolocation.getCurrentPosition(showPosition)
+	}
+}
+
+function showPosition(data){
+	let x = document.getElementById('weatherOut');
+	let y = document.querySelector('#weatherIcon')
+	console.log(data)
+	let lat = data.coords.latitude;
+	let long = data.coords.longitude;
+	const url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${long}&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`
+	fetch(url,{method: 'GET'})
+	.then((res) => res.json())
+	.then((data) => {
+		console.log(data)
+		x.innerText = `${data.list[0].temp.day}°C`;
+
+		let myWeather = data.list[0].weather[0].icon;
+		let element = `https://openweathermap.org/img/w/${myWeather}.png`;
+		y.setAttribute("src", element);
+	})
+	.catch((err) => {
+		console.log(err)
+	})
+}
