@@ -751,10 +751,4 @@ footer {
 	.footDiv{
 		width: 28%;
 	}
-	.brand {
-		margin-left: 35%;
-	}
-	#weather {
-		display: none;
-	}
 }
