@@ -1,0 +1,38 @@
+[
+	{
+		"id":1,
+		"category":"Grocery"
+	},
+	{
+		"id":2,
+		"category":"Mobiles"
+	},
+	{
+		"id":3,
+		"category":"Fashion"
+	},
+	{
+		"id":4,
+		"category":"Electronics"
+	},
+	{
+		"id":5,
+		"category":"Home"
+	},
+	{
+		"id":6,
+		"category":"Appliances"
+	},
+	{
+		"id":7,
+		"category":"Travel"
+	},
+	{
+		"id":8,
+		"category":"Beauty, Toys & More"
+	},
+	{
+		"id":9,
+		"category":"2-Wheelers"
+	}
+]
