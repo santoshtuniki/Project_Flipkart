@@ -1,38 +1,38 @@
 [
 	{
 		"id":1,
-		"category":"Grocery"
+		"Category":"Grocery"
 	},
 	{
 		"id":2,
-		"category":"Mobiles"
+		"Category":"Mobiles"
 	},
 	{
 		"id":3,
-		"category":"Fashion"
+		"Category":"Fashion"
 	},
 	{
 		"id":4,
-		"category":"Electronics"
+		"Category":"Electronics"
 	},
 	{
 		"id":5,
-		"category":"Home"
+		"Category":"Home"
 	},
 	{
 		"id":6,
-		"category":"Appliances"
+		"Category":"Appliances"
 	},
 	{
 		"id":7,
-		"category":"Travel"
+		"Category":"Travel"
 	},
 	{
 		"id":8,
-		"category":"Beauty, Toys & More"
+		"Category":"Beauty, Toys & More"
 	},
 	{
 		"id":9,
-		"category":"2-Wheelers"
+		"Category":"2-Wheelers"
 	}
 ]
