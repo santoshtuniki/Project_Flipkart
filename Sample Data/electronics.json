@@ -4,7 +4,7 @@
 		"Product_name": "acer Extensa 15",
 		"Category":"Electronics",
 		"Category_id":4,
-		"image": "https://i.ibb.co/f2p0DZL/original-imagczgsj7zwuyqz.jpg",
+		"Image": "https://i.ibb.co/f2p0DZL/original-imagczgsj7zwuyqz.jpg",
 		"Maximum_price": 38999,
 		"Selling_price":22990,
 		"Discount":41,
@@ -15,10 +15,10 @@
 			"RAM":4,
 			"SSD_capacity": "NO",
 			"Operating_system":"64 Bit Windows 11 Home",
-			"Screen_size":"15.6 inch",
-			"weight":"1.9 Kg"
+			"Screen_size":15.6,
+			"Weight":"1.9 Kg"
 		},
-		"colour":"Black",
+		"Colour":"Black",
 		"Brand":"acer",
 		"Warranty":"1 year"
 	},
@@ -27,7 +27,7 @@
 		"Product_name": "acer Ryzen 3",
 		"Category":"Electronics",
 		"Category_id":4,
-		"image": "https://i.ibb.co/X2XR0rP/original-imagg9h24c6w9aaa.jpg",
+		"Image": "https://i.ibb.co/X2XR0rP/original-imagg9h24c6w9aaa.jpg",
 		"Maximum_price": 43999,
 		"Selling_price":28990,
 		"Discount":34,
@@ -39,9 +39,9 @@
 			"SSD_capacity": 256,
 			"Operating_system":"64 Bit Windows 11 Home",
 			"Screen_size":"14 inch",
-			"weight":"1.5Kg"
+			"Weight":"1.5Kg"
 		},
-		"colour":"Black",
+		"Colour":"Black",
 		"Brand":"acer",
 		"Warranty":"1 year"
 	},
@@ -50,7 +50,7 @@
 		"Product_name": "ASUS VivoBook 15",
 		"Category":"Electronics",
 		"Category_id":4,
-		"image": "https://i.ibb.co/WsT8fXr/na-thin-and-light-laptop-asus-original-imag3ebnzawky4kn.jpg",
+		"Image": "https://i.ibb.co/WsT8fXr/na-thin-and-light-laptop-asus-original-imag3ebnzawky4kn.jpg",
 		"Maximum_price": 45990,
 		"Selling_price":32990,
 		"Discount":28,
@@ -61,10 +61,10 @@
 			"RAM":8,
 			"SSD_capacity": 512,
 			"Operating_system":"64 Bit Windows 11 Home",
-			"Screen_size":"15.6 inch",
-			"weight":"1.8Kg"
+			"Screen_size":15.6,
+			"Weight":"1.8Kg"
 		},
-		"colour":"Transperent Silver",
+		"Colour":"Transperent Silver",
 		"Brand":"Asus",
 		"Warranty":"1 year"
 	},
@@ -73,7 +73,7 @@
 		"Product_name": "RedmiBook Pro",
 		"Category":"Electronics",
 		"Category_id":4,
-		"image": "https://i.ibb.co/xsqWg9P/redmibook-15-e-learning-edition-thin-and-light-laptop-redmi-original-imag5m8jkjbaybeu.jpg",
+		"Image": "https://i.ibb.co/xsqWg9P/redmibook-15-e-learning-edition-thin-and-light-laptop-redmi-original-imag5m8jkjbaybeu.jpg",
 		"Maximum_price": 51999,
 		"Selling_price":28990,
 		"Discount":44,
@@ -84,10 +84,10 @@
 			"RAM":8,
 			"SSD_capacity": 256,
 			"Operating_system":"64 Bit Windows 11 Home",
-			"Screen_size":"15.6 inch",
-			"weight":"1.8Kg"
+			"Screen_size":15.6,
+			"Weight":"1.8Kg"
 		},
-		"colour":"Charcoal Grey",
+		"Colour":"Charcoal Grey",
 		"Brand":"RedMi",
 		"Warranty":"1 year"
 	},
@@ -96,7 +96,7 @@
 		"Product_name": "MSI Bravo 15 Ryzen 5",
 		"Category":"Electronics",
 		"Category_id":4,
-		"image": "https://i.ibb.co/yF5bSgw/original-imagha3pvvc2xuz2.jpg",
+		"Image": "https://i.ibb.co/yF5bSgw/original-imagha3pvvc2xuz2.jpg",
 		"Maximum_price": 72990,
 		"Selling_price":49990,
 		"Discount":31,
@@ -107,10 +107,10 @@
 			"RAM":8,
 			"SSD_capacity": 512,
 			"Operating_system":"64 Bit Windows 11 Home",
-			"Screen_size":"15.6 inch",
-			"weight":"2.35Kg"
+			"Screen_size":15.6,
+			"Weight":"2.35Kg"
 		},
-		"colour":"Black",
+		"Colour":"Black",
 		"Brand":"MSI",
 		"Warranty":"1 year"
 	},
@@ -119,7 +119,7 @@
 		"Product_name": "Canon EOS 3000D DSLR Camera",
 		"Category":"Electronics",
 		"Category_id":4,
-		"image": "https://i.ibb.co/yFk1yPG/canon-eos-eos-3000d-dslr-original-imaf3t5h9yuyc5zu.jpg",
+		"Image": "https://i.ibb.co/yFk1yPG/canon-eos-eos-3000d-dslr-original-imaf3t5h9yuyc5zu.jpg",
 		"Maximum_price": 33995,
 		"Selling_price":31499,
 		"Discount":7,
@@ -131,7 +131,7 @@
 			"Video_quality":"Full HD",
 			"Weight":"475g"
 		},
-		"colour":"Black",
+		"Colour":"Black",
 		"Brand":"Cannon",
 		"Warranty":"2 year"
 	},
@@ -140,7 +140,7 @@
 		"Product_name": "SONY Alpha Camera",
 		"Category":"Electronics",
 		"Category_id":4,
-		"image": "https://i.ibb.co/VTmf6fv/original-imagg7hsggshhwbz.jpg",
+		"Image": "https://i.ibb.co/VTmf6fv/original-imagg7hsggshhwbz.jpg",
 		"Maximum_price": 128990,
 		"Selling_price":85999,
 		"Discount":33,
@@ -152,7 +152,7 @@
 			"Video_quality":"Full HD",
 			"Weight":"556g"
 		},
-		"colour":"Black",
+		"Colour":"Black",
 		"Brand":"Sony",
 		"Warranty":"2 year"
 	},
@@ -161,7 +161,7 @@
 		"Product_name": "SONY CyberShot Camera",
 		"Category":"Electronics",
 		"Category_id":4,
-		"image": "https://i.ibb.co/FW3G29d/sony-cyber-shot-dsc-h300-advance-point-and-shoot-original-imadpzjmc3hwsnf7.jpg",
+		"Image": "https://i.ibb.co/FW3G29d/sony-cyber-shot-dsc-h300-advance-point-and-shoot-original-imadpzjmc3hwsnf7.jpg",
 		"Maximum_price": 17390,
 		"Selling_price":17299,
 		"Discount":1,
@@ -173,7 +173,7 @@
 			"Video_quality":"HD",
 			"Weight":"590g"
 		},
-		"colour":"Black",
+		"Colour":"Black",
 		"Brand":"Sony",
 		"Warranty":"2 year"
 	},
@@ -182,7 +182,7 @@
 		"Product_name": "Sirius Toys D6535 Drone",
 		"Category":"Electronics",
 		"Category_id":4,
-		"image": "https://i.ibb.co/JnRgbGt/vision-drone-with-wifi-hd-camera-fpv-first-person-preview-sirius-original-imaf9v5jkchehe3g.jpg",
+		"Image": "https://i.ibb.co/JnRgbGt/vision-drone-with-wifi-hd-camera-fpv-first-person-preview-sirius-original-imaf9v5jkchehe3g.jpg",
 		"Maximum_price": 10000,
 		"Selling_price":7199,
 		"Discount":28,
@@ -193,7 +193,7 @@
 			"Control_range":25,
 			"Weight":"449g"
 		},
-		"colour":"White",
+		"Colour":"White",
 		"Brand":"Sirius Toys",
 		"Warranty":"No"
 	},
@@ -202,7 +202,7 @@
 		"Product_name": "OnePlus Bullets Wireless",
 		"Category":"Electronics",
 		"Category_id":4,
-		"image": "https://i.ibb.co/3FSWTnN/buds-z2-oneplus-original-imagcg5gfpcg5ndv.jpg",
+		"Image": "https://i.ibb.co/3FSWTnN/buds-z2-oneplus-original-imagcg5gfpcg5ndv.jpg",
 		"Maximum_price": 2299,
 		"Selling_price":1999,
 		"Discount":13,
@@ -213,7 +213,7 @@
 			"Connectivity":"Bluetooth",
 			"Water_resistant":"Yes"
 		},
-		"colour":"Magico Black",
+		"Colour":"Magico Black",
 		"Brand":"One Plus",
 		"Warranty":"1 year"
 	},
@@ -222,7 +222,7 @@
 		"Product_name": "U&i Pod+ Bluetooth Headset",
 		"Category":"Electronics",
 		"Category_id":4,
-		"image": "https://i.ibb.co/gSr8p0X/pod-20-hours-music-time-true-wireless-earbuds-with-touch-sensor-original-imagccmhxzuvbppa.jpg",
+		"Image": "https://i.ibb.co/gSr8p0X/pod-20-hours-music-time-true-wireless-earbuds-with-touch-sensor-original-imagccmhxzuvbppa.jpg",
 		"Maximum_price": 3999,
 		"Selling_price":699,
 		"Discount":82,
@@ -233,7 +233,7 @@
 			"Connectivity":"Bluetooth",
 			"Water_resistant":"No"
 		},
-		"colour":"Black",
+		"Colour":"Black",
 		"Brand":"U&i",
 		"Warranty":"1 year"
 	},
@@ -242,7 +242,7 @@
 		"Product_name": "SINGHTECH AW950 RGB GAMING MOUSE",
 		"Category":"Electronics",
 		"Category_id":4,
-		"image": "https://i.ibb.co/tq1GkvX/aw950-rgb-gaming-mouse-singhtech-original-image83aqggfzqgc.jpg",
+		"Image": "https://i.ibb.co/tq1GkvX/aw950-rgb-gaming-mouse-singhtech-original-image83aqggfzqgc.jpg",
 		"Maximum_price": 499,
 		"Selling_price":310,
 		"Discount":37,
@@ -255,7 +255,7 @@
 			"Interface":"USB 2.0",
 			"Water_resistant":"No"
 		},
-		"colour":"Black",
+		"Colour":"Black",
 		"Brand":"SINGTECH",
 		"Warranty":"No"
 	},
@@ -264,7 +264,7 @@
 		"Product_name": "HP S1000 Silent Wireless Optical Mouse",
 		"Category":"Electronics",
 		"Category_id":4,
-		"image": "https://i.ibb.co/x26TFx7/hp-s1000-original-imafk74z7xnkmqyx.jpg",
+		"Image": "https://i.ibb.co/x26TFx7/hp-s1000-original-imafk74z7xnkmqyx.jpg",
 		"Maximum_price": 911,
 		"Selling_price":499,
 		"Discount":45,
@@ -277,7 +277,7 @@
 			"Interface":"2.4GHz Wireless",
 			"Water_resistant":"Yes"
 		},
-		"colour":"Black",
+		"Colour":"Black",
 		"Brand":"HP",
 		"Warranty":"No"
 	},
@@ -286,7 +286,7 @@
 		"Product_name": "Internal Laptop Keyboard",
 		"Category":"Electronics",
 		"Category_id":4,
-		"image": "https://i.ibb.co/KFLR9h4/acer-nitro7-nitro-5-an515-52-lg5p-a52brl-cny-nki151306b-series-original-imagevn9s7pcn7z7.jpg",
+		"Image": "https://i.ibb.co/KFLR9h4/acer-nitro7-nitro-5-an515-52-lg5p-a52brl-cny-nki151306b-series-original-imagevn9s7pcn7z7.jpg",
 		"Maximum_price": 3999,
 		"Selling_price":2341,
 		"Discount":41,
@@ -298,7 +298,7 @@
 			"Interface":"Internal",
 			"Water_resistant":"No"
 		},
-		"colour":"Black",
+		"Colour":"Black",
 		"Brand":"Acer",
 		"Warranty":"90 Days seller replacement warranty"
 	}
