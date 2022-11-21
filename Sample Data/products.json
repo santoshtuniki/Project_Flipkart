@@ -1,7 +1,8 @@
 [
 	{
 		"_id":1,
-		"Product_name":"Moong Dal",
+		"Product_name":"Organic Tattva Moong Dal",
+		"Product_type":"Dal",
 		"Category":"Grocery",
 		"Category_id":1,
 		"Image":"https://i.ibb.co/k2LpNBj/organic-moong-dal-yellow-split-moong-dal-organic-tattva-original-imag7dtgfz5kdywr.webp",
@@ -9,8 +10,7 @@
 		"Selling_price":180,
 		"Discount":36,
 		"Customer_rating":4.1,
-		"Specifications":{
-			"Type":"Moong Dal",
+		"Features":{
 			"Quantity":"1Kg",
 			"Maximum_shelf_life":"12 Months",
 			"Nutrient_content":"NA",
@@ -20,7 +20,8 @@
 	},
 	{
 		"_id":2,
-		"Product_name":"Sunlite Refined Sunflower Oil Can",
+		"Product_name":"Fortune Sunlite Refined Sunflower Oil Can",
+		"Product_type":"Edible oil",
 		"Category":"Grocery",
 		"Category_id":1,
 		"Image":"https://i.ibb.co/Sfvf0gV/sunlite-refined-can-sunflower-oil-fortune-original-imafw37vp5mntzzh.jpg",
@@ -28,8 +29,7 @@
 		"Selling_price":797,
 		"Discount":13,
 		"Customer_rating":4.5,
-		"Specifications":{
-			"Type":"Sunflower Oil",
+		"Features":{
 			"Quantity":"5L",
 			"Maximum_shelf_life":"12 Months",
 			"Nutrient_content":"NA",
@@ -40,6 +40,7 @@
 	{
 		"_id":3,
 		"Product_name":"Idly Rava",
+		"Product_type":"Floor & Sooji",
 		"Category":"Grocery",
 		"Category_id":1,
 		"Image":"https://i.ibb.co/NY8NVbS/1-na-1-rava-unbranded-original-imafwfxukdfetma6.jpg",
@@ -47,8 +48,7 @@
 		"Selling_price":41,
 		"Discount":54,
 		"Customer_rating":3.9,
-		"Specifications":{
-			"Type":"Rava",
+		"Features":{
 			"Quantity":"1 Kg",
 			"Maximum_shelf_life":"3 Months",
 			"Nutrient_content":"NA",
@@ -58,7 +58,8 @@
 	},
 	{
 		"_id":4,
-		"Product_name":"Chicken Masala",
+		"Product_name":"Aachi Chicken Masala",
+		"Product_type":"Spice powder & Masala",
 		"Category":"Grocery",
 		"Category_id":1,
 		"Image":"https://i.ibb.co/jhD9q5D/100-tandoori-chicken-masala-powder-box-aachi-powder-original-imaewnc5gjs86hpu.jpg",
@@ -66,8 +67,7 @@
 		"Selling_price":32,
 		"Discount":41,
 		"Customer_rating":4.3,
-		"Specifications":{
-			"Type":"Chicken Masala",
+		"Features":{
 			"Quantity":"100 g",
 			"Maximum_shelf_life":"12 Months",
 			"Nutrient_content":"NA",
@@ -77,7 +77,8 @@
 	},
 	{
 		"_id":5,
-		"Product_name":"Biryani Basmati Rice",
+		"Product_name":"Daawat Biryani Basmati Rice",
+		"Product_type":"Food products",
 		"Category":"Grocery",
 		"Category_id":1,
 		"Image":"https://i.ibb.co/VWCDNhG/white-biryani-na-basmati-rice-bag-daawat-original-imag48ftqbcbabv7.jpg",
@@ -85,8 +86,7 @@
 		"Selling_price":901,
 		"Discount":17,
 		"Customer_rating":4.3,
-		"Specifications":{
-			"Type":"Basmati Rice",
+		"Features":{
 			"Quantity":"5 Kg",
 			"Maximum_shelf_life":"24 Months",
 			"Nutrient_content":"NA",
@@ -96,7 +96,8 @@
 	},
 	{
 		"_id":6,
-		"Product_name":" Berry Mix Cranberries, Blueberry, Strawberries, Black Currant, Goji Berries, Kiwi, Mango, Raisins ",
+		"Product_name":"Farmley Berry Mix Cranberries, Blueberry, Strawberries, Black Currant, Goji Berries, Kiwi, Mango, Raisins",
+		"Product_type":"Dry Fruits",
 		"Category":"Grocery",
 		"Category_id":1,
 		"Image":"https://i.ibb.co/p1VHGbD/original-imagehehjttagtyn.jpg",
@@ -104,8 +105,7 @@
 		"Selling_price":213,
 		"Discount":46,
 		"Customer_rating":4.0,
-		"Specifications":{
-			"Type":"Cranberries, Blueberry, Strawberries",
+		"Features":{
 			"Quantity":"200 g",
 			"Maximum_shelf_life":"6 Months",
 			"Nutrient_content":"NA",
@@ -115,7 +115,8 @@
 	},
 	{
 		"_id":7,
-		"Product_name":"Choco Pie ",
+		"Product_name":"Orion Choco Pie Cream Filled",
+		"Product_type":"Biscuit, Cookie & Rusk",
 		"Category":"Grocery",
 		"Category_id":1,
 		"Image":"https://i.ibb.co/94qXZjn/56-choco-pie-1-orion-original-imag6z5atamtjjd7.jpg",
@@ -123,8 +124,8 @@
 		"Selling_price":43,
 		"Discount":14,
 		"Customer_rating":3.4,
-		"Specifications":{
-			"Type":"Cream Filled",
+		"Features":{
+			"Description":"Cream Filled",
 			"Quantity":"56 g",
 			"Maximum_shelf_life":"12 Months",
 			"Nutrient_content":"NA",
@@ -134,7 +135,8 @@
 	},
 	{
 		"_id":8,
-		"Product_name":"Mysuru Murukku ",
+		"Product_name":"Postcard Mysuru Murukku",
+		"Product_type":"Food products",
 		"Category":"Grocery",
 		"Category_id":1,
 		"Image":"https://i.ibb.co/DfffLKB/125-mysuru-murukku-1-pouch-postcard-original-imagghknvhfxyq6d.jpg",
@@ -142,8 +144,7 @@
 		"Selling_price":53,
 		"Discount":46,
 		"Customer_rating":3.8,
-		"Specifications":{
-			"Type":"Muruku",
+		"Features":{
 			"Quantity":"125 g",
 			"Maximum_shelf_life":"4 Months",
 			"Nutrient_content":"NA",
@@ -153,7 +154,8 @@
 	},
 	{
 		"_id":9,
-		"Product_name":"Natural Care Tea Box",
+		"Product_name":"Red label Natural Care Tea Box",
+		"Product_type":"Tea powder",
 		"Category":"Grocery",
 		"Category_id":1,
 		"Image":"https://i.ibb.co/BNCNX3N/original-imagb6cf4xwrd75b.jpg",
@@ -161,8 +163,8 @@
 		"Selling_price":278,
 		"Discount":17,
 		"Customer_rating":4.5,
-		"Specifications":{
-			"Type":"Flavoured Tea",
+		"Features":{
+			"Description":"Flavoured Tea",
 			"Quantity":"500 g",
 			"Maximum_shelf_life":"12 Months",
 			"Nutrient_content":"NA",
@@ -172,7 +174,8 @@
 	},
 	{
 		"_id":10,
-		"Product_name":"Xtra Instant Coffee ",
+		"Product_name":"CONTINENTAL Xtra Instant Coffee",
+		"Product_type":"Coffee powder",
 		"Category":"Grocery",
 		"Category_id":1,
 		"Image":"https://i.ibb.co/D8k4wLL/xtra-instant-coffee-glass-bottle-continental-original-imag3pfvrregcpzf.jpg",
@@ -180,8 +183,8 @@
 		"Selling_price":40,
 		"Discount":42,
 		"Customer_rating":4.3,
-		"Specifications":{
-			"Type":"Instant Coffee",
+		"Features":{
+			"Description":"Instant Coffee",
 			"Quantity":"25 g",
 			"Maximum_shelf_life":"18 Months",
 			"Nutrient_content":"NA",
@@ -191,7 +194,8 @@
 	},
 	{
 		"_id":11,
-		"Product_name":"Pomegranate Juice ",
+		"Product_name":"Raw Pressery Pomegranate Juice",
+		"Product_type":"Fruit Juice",
 		"Category":"Grocery",
 		"Category_id":1,
 		"Image":"https://i.ibb.co/RChcr6L/pomegranate-juice-plastic-bottle-raw-pressery-original-imag7gx2yezhy97a.jpg",
@@ -199,8 +203,7 @@
 		"Selling_price":243,
 		"Discount":42,
 		"Customer_rating":4.4,
-		"Specifications":{
-			"Type":"Fruit",
+		"Features":{
 			"Quantity":"1 L",
 			"Maximum_shelf_life":"3 Months",
 			"Nutrient_content":"NA",
@@ -210,7 +213,8 @@
 	},
 	{
 		"_id":12,
-		"Product_name":"Multigrain Enery Bar Box ",
+		"Product_name":"Yogabar Multigrain Enery Bar Box",
+		"Product_type":"Cereal Bars",
 		"Category":"Grocery",
 		"Category_id":1,
 		"Image":"https://i.ibb.co/ZS1KxnD/228-multigrain-enery-bar-box-1-yoga-bar-original-imag7fkqfzhm9vhw.jpg",
@@ -218,8 +222,7 @@
 		"Selling_price":90,
 		"Discount":62,
 		"Customer_rating":4.2,
-		"Specifications":{
-			"Type":"Cereal Bars",
+		"Features":{
 			"Quantity":"228g g",
 			"Maximum_shelf_life":"4 Months",
 			"Nutrient_content":"NA",
@@ -229,7 +232,8 @@
 	},
 	{
 		"_id":13,
-		"Product_name":"Instant Noodles Vegetarian ",
+		"Product_name":"Maggi Instant Noodles Vegetarian",
+		"Product_type":"Noodles",
 		"Category":"Grocery",
 		"Category_id":1,
 		"Image":"https://i.ibb.co/6mRgB5h/original-imagfx6apbwx7uvz.jpg",
@@ -237,8 +241,8 @@
 		"Selling_price":159,
 		"Discount":26,
 		"Customer_rating":4.4,
-		"Specifications":{
-			"Type":"Instant Noodles",
+		"Features":{
+			"Description":"Instant Noodles",
 			"Quantity":"840 g",
 			"Maximum_shelf_life":"9 Months",
 			"Nutrient_content":"Amount of serving per 100 g Energy - 393 Kcal Protein - 9.6 g Carbohydrate - 60.3 g Total Sugars - 2.3 g Sugars (Sucrose) - 1.1 g Fiber - 2.3g",
@@ -248,7 +252,8 @@
 	},
 	{
 		"_id":14,
-		"Product_name":"Cadbury Dairy Milk Silk chocolate Bars ",
+		"Product_name":"Cadbury Dairy Milk Silk chocolate Bars",
+		"Product_type":"Chocolates",
 		"Category":"Grocery",
 		"Category_id":1,
 		"Image":"https://i.ibb.co/yk2VByj/original-imagbczub9knfzut.jpg",
@@ -256,8 +261,8 @@
 		"Selling_price":70,
 		"Discount":12,
 		"Customer_rating":4.5,
-		"Specifications":{
-			"Type":"Milk Chocolate",
+		"Features":{
+			"Description":"Milk Chocolate",
 			"Quantity":"50 g",
 			"Maximum_shelf_life":"9 Months",
 			"Nutrient_content":"NA",
@@ -267,7 +272,8 @@
 	},
 	{
 		"_id":15,
-		"Product_name":"Tomato Classic Blend Ketchup ",
+		"Product_name":"Del Monte Tomato Classic Blend Ketchup",
+		"Product_type":"Sauce & Dip",
 		"Category":"Grocery",
 		"Category_id":1,
 		"Image":"https://i.ibb.co/MPHPfLt/tomato-classic-blend-pouch-ketchup-del-monte-original-imag6py7ung2tgrj.jpg",
@@ -275,8 +281,7 @@
 		"Selling_price":61,
 		"Discount":49,
 		"Customer_rating":4.2,
-		"Specifications":{
-			"Type":"Ketchup",
+		"Features":{
 			"Quantity":"800 g",
 			"Maximum_shelf_life":"9 Months",
 			"Nutrient_content":"NA",
@@ -286,7 +291,8 @@
 	},
 	{
 		"_id":16,
-		"Product_name":"Avakaya Mango Pickle ",
+		"Product_name":"Priya Avakaya Mango Pickle",
+		"Product_type":"Pickle",
 		"Category":"Grocery",
 		"Category_id":1,
 		"Image":"https://i.ibb.co/NTLLq8x/500-avakaya-glass-bottle-pickle-priya-original-imaf6ck2f9bnbeqy.jpg",
@@ -294,8 +300,7 @@
 		"Selling_price":171,
 		"Discount":10,
 		"Customer_rating":4.6,
-		"Specifications":{
-			"Type":"Pickle",
+		"Features":{
 			"Quantity":"500 g",
 			"Maximum_shelf_life":"12 Months",
 			"Nutrient_content":"NA",
@@ -851,7 +856,7 @@
 		"Features":{
 			"Pattern":"Woven",
 			"Fabric":"Jacquard",
-			"Type":"Bollywood",
+			"Description":"Bollywood",
 			"Occassion":"Casual, Wedding, Party & Festive"
 		},
 		"Color":"Pink, Cream",
@@ -914,7 +919,7 @@
 		"Features":{
 			"Pattern":"Self Design, Printed, Embroidered, Woven",
 			"Fabric":"Georgette",
-			"Type":"Bollywood",
+			"Description":"Bollywood",
 			"Occassion":"Casual, Wedding, Party & Festive"
 		},
 		"Color":"Dark Blue",
@@ -956,7 +961,7 @@
 		"Features":{
 			"Pattern":"Printed",
 			"Fabric":"Chiffon",
-			"Type":"Daily Wear",
+			"Description":"Daily Wear",
 			"Occassion":"Party & Festive"
 		},
 		"Color":"Maroon",
@@ -977,7 +982,7 @@
 		"Features":{
 			"Pattern":"Woven",
 			"Fabric":"Silk Blend",
-			"Type":"Banarasi",
+			"Description":"Banarasi",
 			"Occassion":"Wedding"
 		},
 		"Color":"Yellow",
@@ -986,16 +991,17 @@
 	{
 		"_id":46,
 		"Product_name":"Girls Midi",
-		"Product_type":"Kids",
+		"Product_type":"Dresses",
+		"Suitable_for":"kids",
 		"Category":"Fashion",
 		"Category_id":3,
-		"Suitable_for":"Girls",
 		"Image":"https://i.ibb.co/524BJKM/kids-1.jpg",
 		"Maximum_price":999,
 		"Selling_price":169,
 		"Discount":83,
 		"Customer_rating":3.9,
 		"Features":{
+			"Ideal_for":"Girls",
 			"Pattern":"Checkered",
 			"Sleeve":"Sleeveless",
 			"Fabric":"Cotton Blend",
@@ -1008,16 +1014,17 @@
 	{
 		"_id":47,
 		"Product_name":"Sherwani and Churidar",
-		"Product_type":"Kids",
+		"Product_type":"Ethnic Sets",
+		"Suitable_for":"kids",
 		"Category":"Fashion",
 		"Category_id":3,
-		"Suitable_for":"Boys",
 		"Image":"https://i.ibb.co/mHwgF2w/kids-2.jpg",
 		"Maximum_price":5599,
 		"Selling_price":2016,
 		"Discount":63,
 		"Customer_rating":4.2,
 		"Features":{
+			"Ideal_for":"Boys",
 			"Pattern":"Printed",
 			"Sleeve":"Full Sleeve",
 			"Fabric":"Polyester",
@@ -1030,16 +1037,17 @@
 	{
 		"_id":48,
 		"Product_name":"Girls Maxi",
-		"Product_type":"Kids",
+		"Product_type":"Gowns",
+		"Suitable_for":"kids",
 		"Category":"Fashion",
 		"Category_id":3,
-		"Suitable_for":"Girls",
 		"Image":"https://i.ibb.co/Q6JTcQb/kids-3.jpg",
 		"Maximum_price":2999,
 		"Selling_price":1699,
 		"Discount":43,
 		"Customer_rating":3.2,
 		"Features":{
+			"Ideal_for":"Girls",
 			"Pattern":"Self Design",
 			"Sleeve":"Sleeveless",
 			"Fabric":"Polyester",
@@ -1052,16 +1060,17 @@
 	{
 		"_id":49,
 		"Product_name":"Girls Lehenga Choli",
-		"Product_type":"Kids",
+		"Product_type":"Lehenga Choli",
+		"Suitable_for":"kids",
 		"Category":"Fashion",
 		"Category_id":3,
-		"Suitable_for":"Girls",
 		"Image":"https://i.ibb.co/4tJp3pb/kids-4.jpg",
 		"Maximum_price":3999,
 		"Selling_price":1199,
 		"Discount":70,
 		"Customer_rating":4.0,
 		"Features":{
+			"Ideal_for":"Girls",
 			"Pattern":"Embellished",
 			"Sleeve":"Sleeveless",
 			"Fabric":"Silk Blend",
@@ -1074,16 +1083,17 @@
 	{
 		"_id":50,
 		"Product_name":"T-Shirt",
-		"Product_type":"Kids",
+		"Product_type":"Top wear",
+		"Suitable_for":"kids",
 		"Category":"Fashion",
 		"Category_id":3,
-		"Suitable_for":"Boys",
 		"Image":"https://i.ibb.co/mHwgF2w/kids-2.jpg",
 		"Maximum_price":299,
 		"Selling_price":144,
 		"Discount":51,
 		"Customer_rating":3.8,
 		"Features":{
+			"Ideal_for":"Boys",
 			"Fit":"Regular",
 			"Pattern":"Solid",
 			"Collar":"Round Neck",
@@ -1098,6 +1108,7 @@
 	{
 		"_id":51,
 		"Product_name":"acer Extensa 15",
+		"Product_type":"Laptop",
 		"Category":"Electronics",
 		"Category_id":4,
 		"Image":"https://i.ibb.co/f2p0DZL/original-imagczgsj7zwuyqz.jpg",
@@ -1106,7 +1117,6 @@
 		"Discount":41,
 		"Customer_rating":3.4,
 		"Features":{
-			"Type":"Laptop",
 			"Processor":"Intel Pentium Quad Core",
 			"RAM":"4 GB",
 			"SSD_capacity":"NO",
@@ -1121,6 +1131,7 @@
 	{
 		"_id":52,
 		"Product_name":"acer Ryzen 3",
+		"Product_type":"Laptop",
 		"Category":"Electronics",
 		"Category_id":4,
 		"Image":"https://i.ibb.co/X2XR0rP/original-imagg9h24c6w9aaa.jpg",
@@ -1129,7 +1140,6 @@
 		"Discount":34,
 		"Customer_rating":3.9,
 		"Features":{
-			"Type":"Laptop",
 			"Processor":"AMD Ryzen 3 Dual Core",
 			"RAM":"8 GB",
 			"SSD_capacity":"256 GB",
@@ -1144,6 +1154,7 @@
 	{
 		"_id":53,
 		"Product_name":"ASUS VivoBook 15",
+		"Product_type":"Laptop",
 		"Category":"Electronics",
 		"Category_id":4,
 		"Image":"https://i.ibb.co/WsT8fXr/na-thin-and-light-laptop-asus-original-imag3ebnzawky4kn.jpg",
@@ -1152,7 +1163,6 @@
 		"Discount":28,
 		"Customer_rating":4.3,
 		"Features":{
-			"Type":"Laptop",
 			"Processor":"Intel Core i3",
 			"RAM":"8 GB",
 			"SSD_capacity":"512 GB",
@@ -1167,6 +1177,7 @@
 	{
 		"_id":54,
 		"Product_name":"RedmiBook Pro",
+		"Product_type":"Laptop",
 		"Category":"Electronics",
 		"Category_id":4,
 		"Image":"https://i.ibb.co/xsqWg9P/redmibook-15-e-learning-edition-thin-and-light-laptop-redmi-original-imag5m8jkjbaybeu.jpg",
@@ -1175,7 +1186,6 @@
 		"Discount":44,
 		"Customer_rating":4.2,
 		"Features":{
-			"Type":"Laptop",
 			"Processor":"Intel Core i3",
 			"RAM":"8 GB",
 			"SSD_capacity":"256 GB",
@@ -1190,6 +1200,7 @@
 	{
 		"_id":55,
 		"Product_name":"MSI Bravo 15 Ryzen 5",
+		"Product_type":"Laptop",
 		"Category":"Electronics",
 		"Category_id":4,
 		"Image":"https://i.ibb.co/yF5bSgw/original-imagha3pvvc2xuz2.jpg",
@@ -1198,7 +1209,6 @@
 		"Discount":31,
 		"Customer_rating":4.4,
 		"Features":{
-			"Type":"Laptop",
 			"Processor":"AMD Ryzen 3 Dual Core",
 			"RAM":"8 GB",
 			"SSD_capacity":"512 GB",
@@ -1213,6 +1223,7 @@
 	{
 		"_id":56,
 		"Product_name":"Canon EOS 3000D DSLR Camera",
+		"Product_type":"Camera",
 		"Category":"Electronics",
 		"Category_id":4,
 		"Image":"https://i.ibb.co/yFk1yPG/canon-eos-eos-3000d-dslr-original-imaf3t5h9yuyc5zu.jpg",
@@ -1221,7 +1232,6 @@
 		"Discount":7,
 		"Customer_rating":4.4,
 		"Features":{
-			"Type":"Camera",
 			"Camera_type":"DSLR",
 			"Effective_pixels":"18 MP",
 			"Video_quality":"Full HD",
@@ -1234,6 +1244,7 @@
 	{
 		"_id":57,
 		"Product_name":"SONY Alpha Camera",
+		"Product_type":"Camera",
 		"Category":"Electronics",
 		"Category_id":4,
 		"Image":"https://i.ibb.co/VTmf6fv/original-imagg7hsggshhwbz.jpg",
@@ -1242,7 +1253,6 @@
 		"Discount":33,
 		"Customer_rating":4.5,
 		"Features":{
-			"Type":"Camera",
 			"Camera_type":"Mirrorless",
 			"Effective_pixels":"24.3 MP",
 			"Video_quality":"Full HD",
@@ -1255,6 +1265,7 @@
 	{
 		"_id":58,
 		"Product_name":"SONY CyberShot Camera",
+		"Product_type":"Camera",
 		"Category":"Electronics",
 		"Category_id":4,
 		"Image":"https://i.ibb.co/FW3G29d/sony-cyber-shot-dsc-h300-advance-point-and-shoot-original-imadpzjmc3hwsnf7.jpg",
@@ -1263,7 +1274,6 @@
 		"Discount":1,
 		"Customer_rating":3.9,
 		"Features":{
-			"Type":"Camera",
 			"Camera_type":"Cybershot",
 			"Effective_pixels":"20.1 MP",
 			"Video_quality":"HD",
@@ -1276,6 +1286,7 @@
 	{
 		"_id":59,
 		"Product_name":"Sirius Toys D6535 Drone",
+		"Product_type":"Professional Drone",
 		"Category":"Electronics",
 		"Category_id":4,
 		"Image":"https://i.ibb.co/JnRgbGt/vision-drone-with-wifi-hd-camera-fpv-first-person-preview-sirius-original-imaf9v5jkchehe3g.jpg",
@@ -1284,7 +1295,6 @@
 		"Discount":28,
 		"Customer_rating":3.1,
 		"Features":{
-			"Type":"Professional Drone",
 			"Camera_present":"No",
 			"Control_range":25,
 			"Weight":"449g"
@@ -1296,6 +1306,7 @@
 	{
 		"_id":60,
 		"Product_name":"OnePlus Bullets Wireless",
+		"Product_type":"Headphone",
 		"Category":"Electronics",
 		"Category_id":4,
 		"Image":"https://i.ibb.co/3FSWTnN/buds-z2-oneplus-original-imagcg5gfpcg5ndv.jpg",
@@ -1304,7 +1315,6 @@
 		"Discount":13,
 		"Customer_rating":4.2,
 		"Features":{
-			"Type":"Headphone",
 			"Headphone_type":"Behind the Neck",
 			"Connectivity":"Bluetooth",
 			"Water_resistant":"Yes"
@@ -1316,6 +1326,7 @@
 	{
 		"_id":61,
 		"Product_name":"U&i Pod+ Bluetooth Headset",
+		"Product_type":"Headphone",
 		"Category":"Electronics",
 		"Category_id":4,
 		"Image":"https://i.ibb.co/gSr8p0X/pod-20-hours-music-time-true-wireless-earbuds-with-touch-sensor-original-imagccmhxzuvbppa.jpg",
@@ -1324,7 +1335,6 @@
 		"Discount":82,
 		"Customer_rating":4.2,
 		"Features":{
-			"Type":"Headphone",
 			"Headphone_type":"True wireless",
 			"Connectivity":"Bluetooth",
 			"Water_resistant":"No"
@@ -1336,6 +1346,7 @@
 	{
 		"_id":62,
 		"Product_name":"SINGHTECH AW950 RGB GAMING MOUSE",
+		"Product_type":"Wired Mouse",
 		"Category":"Electronics",
 		"Category_id":4,
 		"Image":"https://i.ibb.co/tq1GkvX/aw950-rgb-gaming-mouse-singhtech-original-image83aqggfzqgc.jpg",
@@ -1344,7 +1355,6 @@
 		"Discount":37,
 		"Customer_rating":4.3,
 		"Features":{
-			"Type":"Wired Mouse",
 			"Mouse_type":"Gaming Mouse",
 			"Bluetooth":"No",
 			"Lighting":"RGB,Multi color",
@@ -1358,6 +1368,7 @@
 	{
 		"_id":63,
 		"Product_name":"HP S1000 Silent Wireless Optical Mouse",
+		"Product_type":"Wireless Mouse",
 		"Category":"Electronics",
 		"Category_id":4,
 		"Image":"https://i.ibb.co/x26TFx7/hp-s1000-original-imafk74z7xnkmqyx.jpg",
@@ -1366,7 +1377,6 @@
 		"Discount":45,
 		"Customer_rating":4.3,
 		"Features":{
-			"Type":"Wireless Mouse",
 			"Mouse_type":"Optical Mouse",
 			"Bluetooth":"Yes",
 			"Lighting":"No",
@@ -1380,6 +1390,7 @@
 	{
 		"_id":64,
 		"Product_name":"Internal Laptop Keyboard",
+		"Product_type":"Laptop Keyboard",
 		"Category":"Electronics",
 		"Category_id":4,
 		"Image":"https://i.ibb.co/KFLR9h4/acer-nitro7-nitro-5-an515-52-lg5p-a52brl-cny-nki151306b-series-original-imagevn9s7pcn7z7.jpg",
@@ -1388,7 +1399,6 @@
 		"Discount":41,
 		"Customer_rating":3.9,
 		"Features":{
-			"Type":"Laptop Ketboard",
 			"Size":"Laptop Size",
 			"Model":"Acer Nitro 5",
 			"Interface":"Internal",
@@ -1453,7 +1463,7 @@
 		"Discount":32,
 		"Customer_rating":4.0,
 		"Features":{
-			"Type":"Open",
+			"Description":"Open",
 			"Material":"Metal",
 			"Number_of_shelves":10,
 			"Wheels_included":"No",
@@ -1511,7 +1521,7 @@
 		"Discount":60,
 		"Customer_rating":4.2,
 		"Features":{
-			"Type":"Manual Gas Stove",
+			"Description":"Manual Gas Stove",
 			"Number_of_burners":2,
 			"Material":"Stainless Steel",
 			"Burner_Type":"High Fuel Efficiency Brass Burner, 3 Pin"
@@ -1531,7 +1541,7 @@
 		"Discount":0,
 		"Customer_rating":4.3,
 		"Features":{
-			"Type":"Analog",
+			"Description":"Analog",
 			"Frame_material":"Metal",
 			"Mechanism":"Silent Sweep"
 		},
@@ -1550,7 +1560,7 @@
 		"Discount":42,
 		"Customer_rating":4.1,
 		"Features":{
-			"Type":"Study Table",
+			"Description":"Study Table",
 			"Material":"Engineered Wood",
 			"Configuration":"Straight",
 			"Storage_included":"Yes",
@@ -1571,7 +1581,7 @@
 		"Discount":65,
 		"Customer_rating":3.9,
 		"Features":{
-			"Type":"Laptop Table",
+			"Description":"Laptop Table",
 			"Material":"Wood",
 			"Foldable":"Yes",
 			"Wheels_included":"No",
@@ -1592,7 +1602,7 @@
 		"Discount":45,
 		"Customer_rating":4.0,
 		"Features":{
-			"Type":"Chair",
+			"Description":"Chair",
 			"Material":"Solid Wood",
 			"Upholstery_type":"Tufted",
 			"Armrest_included":"Yes",
@@ -1613,7 +1623,7 @@
 		"Discount":50,
 		"Customer_rating":4.1,
 		"Features":{
-			"Type":"Bed",
+			"Description":"Bed",
 			"Material":"Solid Wood",
 			"Storage_included":"Yes",
 			"Bed_type":"Platform"
@@ -1634,7 +1644,7 @@
 		"Discount":69,
 		"Customer_rating":3.6,
 		"Features":{
-			"Type":"Sofa",
+			"Description":"Sofa",
 			"Material":"Solid Wood",
 			"Filling Material":"Foam",
 			"Upholstery":"Polycotton",
@@ -1706,7 +1716,7 @@
 		"Discount":40,
 		"Customer_rating":4.5,
 		"Features":{
-			"Type":"Split",
+			"Description":"Split",
 			"Remote_control":"Yes",
 			"Capacity":"1.5 Ton",
 			"Energy_rating":"5 Star",
@@ -1728,7 +1738,7 @@
 		"Discount":19,
 		"Customer_rating":3.4,
 		"Features":{
-			"Type":"Split",
+			"Description":"Split",
 			"Remote_control":"Yes",
 			"Capacity":"1.8 Ton",
 			"Energy_rating":"5 Star",
@@ -1750,7 +1760,7 @@
 		"Discount":4,
 		"Customer_rating":4.4,
 		"Features":{
-			"Type":"Spout",
+			"Description":"Spout",
 			"Material":"Metal",
 			"Capacity":"1.2 L",
 			"Operating_mode":"Cordless"
@@ -1839,7 +1849,7 @@
 		"Customer_rating":4.1,
 		"Features":{
 			"Capacity":"5 L",
-			"Type":"Electrical & Storage",
+			"Description":"Electrical & Storage",
 			"Purification_technology":"RO + UV + MTDS + Alkaline"
 		},
 		"Color":"White",
@@ -1858,7 +1868,7 @@
 		"Customer_rating":4.5,
 		"Features":{
 			"Capacity":"8 L",
-			"Type":"Electrical & Storage",
+			"Description":"Electrical & Storage",
 			"Purification_technology":"RO + UV"
 		},
 		"Color":"Black & Copper",
@@ -1877,7 +1887,7 @@
 		"Customer_rating":4.1,
 		"Features":{
 			"Tank_capacity":"85 L",
-			"Type":"Desert",
+			"Description":"Desert",
 			"Blower/Fan":"Fan",
 			"Cooling Media":"Honeycomb",
 			"Cooling and Heating":"Yes",
@@ -1900,7 +1910,7 @@
 		"Customer_rating":3.6,
 		"Features":{
 			"Tank_capacity":"41 L",
-			"Type":"Desert",
+			"Description":"Desert",
 			"Blower/Fan":"Fan",
 			"Cooling Media":"Aspen",
 			"Cooling and Heating":"No",
@@ -1997,6 +2007,8 @@
 	{
 		"_id":93,
 		"Product_name":"Smoothing Shampoo and Conditioner Combo",
+		"Product_type":"Hair care",
+		"Suitable_for":"Men & Women",
 		"Category":"Beauty, Toys & More",
 		"Category_id":8,
 		"Image":"https://i.ibb.co/tQgGqkp/original-imagfw4zbhxverz7.jpg",
@@ -2004,16 +2016,14 @@
 		"Selling_price":613,
 		"Discount":5,
 		"Customer_rating":4.4,
-		"Specifications":{
-			"Ideal_for":"Men & Women",
-			"Type":"Hair care",
-			"Quantity":"Shampoo:200ml, Conditioner 98g"
-		},
+		"Quantity":"Shampoo:200ml, Conditioner 98g",
 		"Brand":"MATRIX Opti.care"
 	},
 	{
 		"_id":94,
 		"Product_name":"Fusion Shaving 5-Bladed Cartridges",
+		"Product_type":"Shaving & Beard Care",
+		"Suitable_for":"Men",
 		"Category":"Beauty, Toys & More",
 		"Category_id":8,
 		"Image":"https://i.ibb.co/1XjdM0c/original-imagg4ahbfgsmrec.jpg",
@@ -2021,16 +2031,14 @@
 		"Selling_price":2092,
 		"Discount":10,
 		"Customer_rating":4.6,
-		"Specifications":{
-			"Ideal_for":"Men",
-			"Type":"Shaving Cartridges",
-			"Quantity":"10 5-bladed cartrindes"
-		},
+		"Quantity":"10 5-bladed cartrindes",
 		"Brand":"Gillette"
 	},
 	{
 		"_id":95,
 		"Product_name":"Deep Moisture Body Lotion ",
+		"Product_type":"Body & Face Care",
+		"Suitable_for":"Men & Women",
 		"Category":"Beauty, Toys & More",
 		"Category_id":8,
 		"Image":"https://i.ibb.co/rsxyDWK/original-imageg3j4crfx89p.jpg",
@@ -2038,9 +2046,8 @@
 		"Selling_price":370,
 		"Discount":1,
 		"Customer_rating":4.5,
-		"Specifications":{
-			"Ideal_for":"Men & Women",
-			"Type":"Non Greasy Intensive Care Deep Moisture Body Lotion",
+		"Features":{
+			"Description":"Non Greasy Intensive Care Deep Moisture Body Lotion",
 			"Quantity":"400 ml",
 			"Maximum_shelf_life":"36 Months"
 		},
@@ -2049,6 +2056,8 @@
 	{
 		"_id":96,
 		"Product_name":"JOHNSON'S baby Lotion ",
+		"Product_type":"Body & Face Care",
+		"Suitable_for":"Baby boys & baby girls",
 		"Category":"Beauty, Toys & More",
 		"Category_id":8,
 		"Image":"https://i.ibb.co/HpW2Lgp/1000-new-lotion-500ml-pack-of-2-johnson-s-lotion-original-imaf8wfhpyzptjfq.jpg",
@@ -2056,9 +2065,8 @@
 		"Selling_price":693,
 		"Discount":10,
 		"Customer_rating":4.5,
-		"Specifications":{
-			"Ideal_for":"Baby boys & baby girls",
-			"Type":"Baby Moisture Body Lotion",
+		"Features":{
+			"Description":"Baby Moisture Body Lotion",
 			"Quantity":"1000 ml",
 			"Maximum_shelf_life":"24 Months"
 		},
@@ -2067,6 +2075,8 @@
 	{
 		"_id":97,
 		"Product_name":"Pampers Diaper Pants ",
+		"Product_type":"Diaper",
+		"Suitable_for":"kids",
 		"Category":"Beauty, Toys & More",
 		"Category_id":8,
 		"Image":"https://i.ibb.co/syWpD13/ab-pants-sm-sup-jumbo-pm-s-1-pampers-original-imagghphs5asf3ct.jpg",
@@ -2074,9 +2084,8 @@
 		"Selling_price":890,
 		"Discount":25,
 		"Customer_rating":4.3,
-		"Specifications":{
-			"Ideal_for":"kids",
-			"Type":"Pant Diapers",
+		"Features":{
+			"Description":"Pant Diapers",
 			"Quantity":"86 Diapers per pack",
 			"Maximum_shelf_life":"36 Months"
 		},
@@ -2085,6 +2094,8 @@
 	{
 		"_id":98,
 		"Product_name":"Cloth Diapers for Babies",
+		"Product_type":"Diaper",
+		"Suitable_for":"kids",
 		"Category":"Beauty, Toys & More",
 		"Category_id":8,
 		"Image":"https://i.ibb.co/RThGF4P/100-cloth-diapers-for-babies-0-2-years-reusable-washable-with-original-imag68ecfsqpb2dz.jpg",
@@ -2092,9 +2103,8 @@
 		"Selling_price":764,
 		"Discount":41,
 		"Customer_rating":3.7,
-		"Specifications":{
-			"Ideal_for":"Baby Boys & Baby Girls",
-			"Type":"Cloth diapers",
+		"Features":{
+			"Description":"Cloth diapers",
 			"Quantity":"3 cloth diapers per package",
 			"Maximum_shelf_life":"56 Months"
 		},
@@ -2103,6 +2113,8 @@
 	{
 		"_id":99,
 		"Product_name":"GENTLE BABY SHAMPOO",
+		"Product_type":"Hair care",
+		"Suitable_for":"Baby boys & baby girls",
 		"Category":"Beauty, Toys & More",
 		"Category_id":8,
 		"Image":"https://i.ibb.co/Vx9wHXZ/100-gentle-baby-shampoo-himalaya-original-imafzzebmbxxaa4t.jpg",
@@ -2110,9 +2122,8 @@
 		"Selling_price":85,
 		"Discount":10,
 		"Customer_rating":4.4,
-		"Specifications":{
-			"Ideal_for":"Baby Boys & Baby Girls",
-			"Type":"baby hair care",
+		"Features":{
+			"Description":"baby hair care",
 			"Quantity":"100 ml",
 			"Maximum_shelf_life":"36 Months"
 		},
@@ -2121,6 +2132,7 @@
 	{
 		"_id":100,
 		"Product_name":"Flying RC Indoor Outdoor Helicopter",
+		"Product_type":"Remote Control Toys",
 		"Category":"Beauty, Toys & More",
 		"Category_id":8,
 		"Image":"https://i.ibb.co/2qm0bv0/tpzh01-3-grow-star-plus-original-imagfwe4jba5gru8.jpg",
@@ -2128,9 +2140,9 @@
 		"Selling_price":369,
 		"Discount":76,
 		"Customer_rating":3.4,
-		"Specifications":{
+		"Features":{
 			"Ideal_for":"Age 5+ years",
-			"Type":"Remote Control Helicopters",
+			"Description":"Remote Control Helicopters",
 			"Quantity":"260g weight and 1 set in the box",
 			"Maximum_shelf_life":"NA"
 		},
@@ -2139,6 +2151,7 @@
 	{
 		"_id":101,
 		"Product_name":"LEGO Car Transporter",
+		"Product_type":"Building & Block Toys",
 		"Category":"Beauty, Toys & More",
 		"Category_id":8,
 		"Image":"https://i.ibb.co/F67L5Qk/car-transporter-lego-original-imafyrfnvzxbgzhv.jpg",
@@ -2146,9 +2159,9 @@
 		"Selling_price":2600,
 		"Discount":25,
 		"Customer_rating":5.0,
-		"Specifications":{
+		"Features":{
 			"Ideal_for":"Age:5+ Years",
-			"Type":"Plastic LEGO",
+			"Description":"Plastic LEGO",
 			"Quantity":"342 Blocks",
 			"Maximum_shelf_life":"NA"
 		},
@@ -2157,6 +2170,7 @@
 	{
 		"_id":102,
 		"Product_name":"Magic Cube Puzzle",
+		"Product_type":"Puzzles & Cubes",
 		"Category":"Beauty, Toys & More",
 		"Category_id":8,
 		"Image":"https://i.ibb.co/YjmZPzD/1-2021-coco-3c-3x3-speedcube-high-speed-smooth-turning-magic-original-imag9xykftgfjrau.jpg",
@@ -2164,9 +2178,9 @@
 		"Selling_price":140,
 		"Discount":79,
 		"Customer_rating":4.1,
-		"Specifications":{
+		"Features":{
 			"Ideal_for":"Age:3+ Years",
-			"Type":"3x3 SpeedCube High Speed Smooth Turning Magic Cube Puzzle Stickerless Brainteaser Game Toy",
+			"Description":"3x3 SpeedCube High Speed Smooth Turning Magic Cube Puzzle Stickerless Brainteaser Game Toy",
 			"Quantity":"1 pieces",
 			"Maximum_shelf_life":"NA"
 		},
