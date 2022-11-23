@@ -1,0 +1,38 @@
+[
+	{
+		"Order_id":1,
+		"Name":"Aakash",
+		"Email":"aakash@gmail.com",
+		"Address":"Hno 23,Sector 1",
+		"Phone":7687686861,
+		"Cost":107978,
+		"Order_items":[18,53,92,41]
+	},
+	{
+		"Order_id":2,
+		"Name":"Lalithya",
+		"Email":"lalithya@gmail.com",
+		"Address":"Hno 28,Sector 1",
+		"Phone":7956686899,
+		"Cost":38239,
+		"Order_items":[76,58,64]
+	},
+	{
+		"Order_id":3,
+		"Name":"Varun",
+		"Email":"varun@gmail.com",
+		"Address":"Hno 18,Sector 2",
+		"Phone":7865436860,
+		"Cost":15346,
+		"Order_items":[35,89,100,41,28]
+	},
+	{
+		"Order_id":4,
+		"Name":"Santosh",
+		"Email":"santosh@gmail.com",
+		"Address":"Hno 41,Sector 7",
+		"Phone":9787673355,
+		"Cost":79500,
+		"Order_items":[94,13,111]
+	}
+]
